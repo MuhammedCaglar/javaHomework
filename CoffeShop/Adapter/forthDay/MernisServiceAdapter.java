@@ -5,7 +5,7 @@ import java.util.Locale;
 
 import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
 
-public class MerniceServiceAdapter implements CustomerCheckService {
+public class MernisServiceAdapter implements CustomerCheckService {
 
 	@Override
 	public boolean checkIfRealPerson(Customer customer) {
